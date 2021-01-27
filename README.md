@@ -16,7 +16,7 @@
 - Entre na pasta que você clonou ou fez o dowload;
 - Depois rode o comando no seu Terminal **bash** ou outros;
 ```bash
-$ ./git-install
+$ ./git-install.sh
 ```
 
 
