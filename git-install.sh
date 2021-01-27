@@ -2,8 +2,8 @@
 
 ##----- Variáveis ------##
 GIT_VERSION=$(git --version | awk '{ print $3 }')
-GIT_HUB_USERNAME="Pedroemanuelavelar"
-GIT_HUB_EMAIL="pedroemanuel5296@gmail.com"
+GIT_HUB_USERNAME="seu_nome_aqui"
+GIT_HUB_EMAIL="seu_email_aqui"
 
 ## Atualiza a lista de Repositórios ##
 sudo apt-get update
