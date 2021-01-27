@@ -7,7 +7,6 @@
     <p>Portuguese (Brazil)</p>
     <hr>
     <p>English (EUA)</p>
-    <hr>
 </details>
 <br>
 
