@@ -5,6 +5,9 @@ GIT_VERSION=$(git --version | awk '{ print $3 }')
 ## GIT_HUB_USERNAME="seu_nome_aqui" ##
 ## GIT_HUB_EMAIL="seu_email_aqui" ##
 
+## Dá acesso ao root enquanto o programa estiver rodando ##
+sudo su
+
 ## Guarda o nome do usuário e o email 
 echo 'Digite seu nome de usuário do GitHub: '
 read GIT_HUB_USERNAME
