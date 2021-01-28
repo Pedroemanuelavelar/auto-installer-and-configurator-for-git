@@ -1,4 +1,4 @@
-# Script bash for automation instalation for linux</h1>
+# Script bash for automation instalation for linux
 
 ## languages
 <details>
@@ -6,13 +6,15 @@
     <br>
     <p>Portuguese (Brazil)</p>
     <hr>
-    <p>English (EUA)</p>
+    <p>English (USA)</p>
 </details>
 <br>
 
 <hr>
 
 ## Use instructions 
+
+## Instruções de uso
 - Entre na pasta que você clonou ou fez o dowload;
 - Depois rode o comando no seu Terminal **bash** ou outros;
 ```bash
