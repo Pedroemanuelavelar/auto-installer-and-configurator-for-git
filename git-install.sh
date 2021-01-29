@@ -6,7 +6,7 @@
 #####	DATA DA CRIAÇÃO:	20/12/2020
 #####	ESCRITO POR:		Pedro Emanuel de A.S de Almeida
 #####	E-MAIL:				pedroemanuel5296@gmail.com
-#####	DISTRO:				Kubuntu (KDE NEON)
+#####	SISTEMAS TESTADOS:	Kubuntu (KDE NEON), Ubuntu, MacOS (Catalina) 
 #####	LICENÇA:			MIT
 #####	PROJETO:			https://github.com/Pedroemanuelavelar/auto-install-and-configurate-for-git
 
