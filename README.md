@@ -1,4 +1,4 @@
-# Script bash for automation instalation for linux
+# Script bash for automation instalation for Unix OS
 
 ## languages
 <details>
