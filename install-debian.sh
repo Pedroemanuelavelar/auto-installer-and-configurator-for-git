@@ -9,4 +9,4 @@ sudo apt-get upgrade -y
 echo $'\n\nSistema atualizado!\n\n'
 
 ## Instala o git ##
-sudo apt-get install git -y 
+sudo apt-get install git -y
