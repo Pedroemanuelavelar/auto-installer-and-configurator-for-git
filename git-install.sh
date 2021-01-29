@@ -31,18 +31,11 @@ read GIT_HUB_USERNAME
 echo $'\nAgora '$GIT_HUB_USERNAME$' digite seu e-mail: '
 read GIT_HUB_EMAIL
 
-## Atualiza a lista de Repositórios ##
-sudo apt-get update
-
-echo $'\nAtualizado a lista de repositórios!\n'
-
-## Atualiza o sistema ##
-sudo apt-get upgrade -y
-
-echo $'\n\nSistema atualizado!\n\n'
-
-## Instala o git ##
-sudo apt-get install git -y 
+if ! [[ uname == "Darwin "]]; then
+sh ./install-debian.sh
+else
+sh ./install-macos.sh
+fi
 
 echo $'\n\ngit instalado com sucesso! Na versao: '$GIT_VERSION$'\n'
 
