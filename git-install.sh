@@ -15,6 +15,12 @@ GIT_VERSION=$(git --version | awk '{ print $3 }')
 ## GIT_HUB_USERNAME="seu_nome_aqui" ##
 ## GIT_HUB_EMAIL="seu_email_aqui" ##
 
+if command -v git &> /dev/null
+then
+    echo "git já está instalado no sistema"
+    exit
+fi
+
 ## Dá acesso ao root enquanto o programa estiver rodando ##
 sudo su
 
