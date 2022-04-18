@@ -4,7 +4,7 @@
 #####	VERSION:				    0.1
 #####	DESCRIPTION:			    Install git and perform global settings
 #####	CREATION DATE:	            20/12/2020
-#####	WRITING BY:		            Pedro Emanuel de A.S de Almeida
+#####	WRITTEN BY:		            Pedro Emanuel de A.S de Almeida
 #####	E-MAIL:				        pedroemanuel5296@gmail.com
 #####	OS TESTING:	                Kubuntu (KDE NEON), Ubuntu, MacOS (Catalina) 
 #####	LICENSES:			        MIT
