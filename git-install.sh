@@ -1,19 +1,19 @@
 #!/bin/bash
 
-#####	NOME:				git-install.sh
-#####	VERSÃO:				0.1
-#####	DESCRIÇÃO:			Instala o git e realiza configurações globais.
-#####	DATA DA CRIAÇÃO:	20/12/2020
-#####	ESCRITO POR:		Pedro Emanuel de A.S de Almeida
-#####	E-MAIL:				pedroemanuel5296@gmail.com
-#####	SISTEMAS TESTADOS:	Kubuntu (KDE NEON), Ubuntu, MacOS (Catalina) 
-#####	LICENÇA:			MIT
-#####	PROJETO:			https://github.com/Pedroemanuelavelar/auto-install-and-configurate-for-git
+#####	NAME:				        git-install.sh
+#####	VERSION:				    0.1
+#####	DESCRIPTION:			    Install git and perform global settings
+#####	CREATION DATE:	            20/12/2020
+#####	WRITING BY:		            Pedro Emanuel de A.S de Almeida
+#####	E-MAIL:				        pedroemanuel5296@gmail.com
+#####	OS TESTING:	                Kubuntu (KDE NEON), Ubuntu, MacOS (Catalina) 
+#####	LICENSES:			        MIT
+#####	PROJECT REPOSITORY:			https://github.com/Pedroemanuelavelar/auto-install-and-configurate-for-git
 
 ##----- Variáveis ------##
 GIT_VERSION=$(git --version | awk '{ print $3 }')
-## GIT_HUB_USERNAME="seu_nome_aqui" ##
-## GIT_HUB_EMAIL="seu_email_aqui" ##
+GIT_HUB_USERNAME="your_username_here"
+GIT_HUB_EMAIL="your_email_here"
 
 if command -v git &> /dev/null
 then
